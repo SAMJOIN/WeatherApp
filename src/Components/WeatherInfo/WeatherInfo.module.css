@@ -32,13 +32,13 @@
     padding-top: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
+
 .degree::after {
     content: "°";
 }
 
 .icon {
-    z-index: -1;
-    scale: 5;
+    scale: 3;
     margin-top: 50px;
     margin-bottom: 100px;
 }

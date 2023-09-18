@@ -74,7 +74,7 @@ const WeatherInfo = (props) => {
             {props.weather ?
                 <div>
                     <h1 className={styles.degree}>{Math.round(props.weather.main.temp)}</h1>
-                    <HandySvg src={setIcon(props.weather.weather[0].icon)} width='64' height='64' className={styles.icon} />
+                    <HandySvg src={setIcon(props.weather.weather[0].icon)}  width='64' height='64'  className={styles.icon} />
                     <p className={styles.label}>{props.weather.weather[0].main}</p>
                     <hr size="2" color="white" className={styles.line}></hr>
                     <div className={styles.addInfo}>

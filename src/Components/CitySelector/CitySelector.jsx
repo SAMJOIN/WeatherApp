@@ -23,7 +23,7 @@ const CitySelector = (props) => {
                     {
                         props.isFetching
                         ? <Loader />
-                        : <Loader />
+                        : 'Найти'
                     }
                     </button>
             </span>
