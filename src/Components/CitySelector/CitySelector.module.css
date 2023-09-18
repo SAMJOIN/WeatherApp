@@ -1,0 +1,36 @@
+.window {
+    margin-top: 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.input {
+    width: 300px;
+    margin-top: 20px;
+    border: none;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 0 3px 0.01px black;
+    outline: none;
+    padding-left: 20px;
+}
+
+
+.button {
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    font-size: 20px;
+    padding: 10px;
+    border: none;   
+    border-left: none;
+    width: 100px;
+    box-shadow: 0 0 3px 0.01px black;
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0.123);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.App {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 1000px;
+    background: -webkit-linear-gradient(225deg, rgb(137, 37, 59) 2%, rgb(8, 14, 90));
+    background: -moz-linear-gradient(225deg, rgb(137, 37, 59) 2%, rgb(8, 14, 90));
+    background: linear-gradient(225deg, rgb(137, 37, 59) 2%, rgb(8, 14, 90));
+}
